@@ -1,4 +1,11 @@
 # README
 
+Application Test_Rover
 
-# test_rover
+1. Execute test with rspec:
+
+  `$ rspec`
+  
+2. Execute application:
+
+  `$ rails test_rover:run` 
