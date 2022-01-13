@@ -1,6 +1,7 @@
 class Rover
  
   attr_accessor :position_x, :position_y, :guidance
+  
   $hash_left = { 'N': 'W', 'W': 'S', 'S': 'E', 'E': 'N'}
   $hash_right = { 'N': 'E', 'E': 'S', 'S': 'W', 'W': 'N'}
 
