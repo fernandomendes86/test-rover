@@ -17,5 +17,22 @@ class Rover
   def turn_right
     self.guidance = $hash_right[self.guidance.to_sym]  
   end
+
+  def next_position
+    case self.guidance
+    when 'N'
+      self.position_y = self.position_y + 1
+    when 'S'
+      self.position_y = self.position_y - 1
+    when 'W'
+      self.position_x = self.position_x - 1
+    else
+      self.position_x = self.position_x + 1
+    end    
+  end
+
+  def print_position_guidance
+    puts "#{self.position_x} #{self.position_y} #{self.guidance}"
+  end
   
 end
