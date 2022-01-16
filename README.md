@@ -1,11 +1,17 @@
-# README
+# test_rover
 
-Application Test_Rover
+Environment requirements:
 
-1. Execute test with rspec:
+- Ruby 2.7.2
 
-  `$ rspec`
+- Rails 6.1.4.4
+
+Run the tests with rspec:
+
+- `$ rspec`
   
-2. Execute application:
+Run the application:
 
-  `$ rails test_rover:run` 
+- `$ bundle`
+
+- `$ rails test_rover:run`
