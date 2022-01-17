@@ -7,7 +7,7 @@ Environment requirements:
 
 Run the tests with rspec:
 
-- `rspec`
+- `$ rspec`
   
 Run the application:
 
